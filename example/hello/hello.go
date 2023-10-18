@@ -44,7 +44,7 @@ var (
 func main() {
 	// Configure logging for a command-line program.
 	log.SetFlags(0)
-	log.SetPrefix("hello: ")
+	log.SetPrefix("booo: ")
 
 	// Parse flags.
 	flag.Usage = usage
